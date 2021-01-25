@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section class="container">
+        <div class="sign-in">
+            <div class="content">
+                <header>
+                    <h1>Pick up where you left off!</h1>
+                    <ul class="social">
+                        <li><a href="https://www.google.com/account"><img src="./images/google-icon.png" alt="Google account"></a></li>
+                        <li><a href="https://www.facebook.com/account"><img src="./images/facebook-icon.png" alt="facebook account"></a></li>
+                        <li><a href="https://www.twitter.com/account"><img src="./images/twitter-icon.png" alt="Twitter account"></a></li>
+                        <li><a href="https://www.github.com/account"><img src="./images/github-icon.png" alt="GitHub account"></a></li>
+                    </ul>
+                    <h3>or use your email to sign in:</h3>
+                </header>
+        
+                <!-- Existing User Details -->
+                <form id="existing" action="opeyemi.k05@gmail.com" method="POST">
+                    <!-- Personal details -->
+                    <div class="user-details">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="personal-info" required>
+                    </div>
+        
+                    <div class="user-details">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Password" class="personal-info" required>
+                    </div>
+        
+                    <!-- Submission of form -->
+                    <div class="clickables">
+                        <button type="submit" class="clicks" id="sign-up">Sign In</button>
+                    </div>
+        
+                    <!-- or Sign in , if account exists -->
+                    <div class="clickables">
+                        <p>Don't have an account? <a href="signup.html">Create account</a></p>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    
+        <div class="background">
+            <img src="./images/sign-in.png" alt="Connect with us">
+        </div>
+    </section>
+</body>
+</html>

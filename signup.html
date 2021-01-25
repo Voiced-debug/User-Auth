@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section class="container">
+        <div class="create">
+            <div class="content">
+                <header>
+                    <h1>Get Started</h1>
+                    <ul class="social">
+                        <li><a href="https://www.google.com/account"><img src="./images/google-icon.png" alt="Google account"></a></li>
+                        <li><a href="https://www.facebook.com/account"><img src="./images/facebook-icon.png" alt="facebook account"></a></li>
+                        <li><a href="https://www.twitter.com/account"><img src="./images/twitter-icon.png" alt="Twitter account"></a></li>
+                        <li><a href="https://www.github.com/account"><img src="./images/github-icon.png" alt="GitHub account"></a></li>
+                    </ul>
+                    <h3>or use your email for registration:</h3>
+                </header>
+                    
+                <!-- New User Details -->
+                <form id="new-user" action="opeyemi.k05@gmail.com" method="POST">
+                    <!-- Personal details -->
+                    <div class="row">
+                        <div class="user-detailS">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="First Name" class="personal-info" required>
+                        </div>
+            
+                        <div class="user-details one">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="personal-info">
+                        </div>
+                    </div>
+        
+                    <div class="user-details">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="personal-info" required>
+                    </div>
+        
+                    <div class="user-details">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Password" class="personal-info" required>
+                    </div>
+        
+                    <!-- Submission of form -->
+                    <div class="clickables">
+                        <button type="submit" class="clicks" id="sign-up">Sign Up</button>
+                    </div>  
+        
+                    <!-- or Sign in , if account exists -->
+                    <div class="clickables">
+                        <p>Already have an account? <a href="login.html">Log in</a></p>
+                    </div>
+        
+                    <div class="terms">
+                        <label for="terms"><input type="checkbox" id="terms"> I agree to the <span>Terms of Service</span> and 
+                        <span>Privacy Policy.</span></label>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    
+        <div class="background">
+            <img src="./images/sign-up.png" alt="Get connected">
+        </div>
+    </section>
+</body>
+</html>

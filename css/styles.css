@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7FFF7;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 87%;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: #547f9c 0px 14px 28px, #3894d1 0px 10px 10px;
+}
+
+.background {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign-in, .create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(221, 177, 118);
+}
+
+.content {
+    width: 65%;
+}
+
+header {
+    margin-bottom: 1.675rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #2F3061;
+    margin-bottom: 15px;
+    border-bottom: 3.5px solid #df195b;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.user-details, .clickables {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 4px;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row .one {
+    margin-left: 6px;
+}
+
+input, #sign-up {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+input:focus {
+    width: 110%;
+    border-color: #9e0c0ce7;
+}
+
+#sign-up {
+    background: #df195b;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#sign-up:hover{
+    background: #36bff5;
+    border: 1px solid;
+    color: #343434;
+}
+
+.terms {
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.terms input {
+    width: inherit;
+}
+
+span {
+    color: #df195b;
+}
+
+.clickables p a{
+    color: #ff4584;
+}
+
+.clickables p a:hover {
+    color: rgb(114, 108, 20);
+}
+
+header h3 {
+    text-align: center;
+    margin: 10px 0 10px;
+    font-weight: 500;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sign-in, .create {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .content {
+        width: 100%;
+        padding: 40px;
+        background:  rgba(255, 255, 255, 0.9);
+        margin: 50px;
+    }
+}
