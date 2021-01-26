@@ -19,7 +19,7 @@ body {
 .container {
     position: relative;
     width: 80%;
-    height: 90%;
+    height: 87%;
     border-radius: 10px;
     display: flex;
     overflow: hidden;
@@ -135,7 +135,7 @@ input:focus {
 }
 
 .terms {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     font-weight: 200;
     font-size: 0.2rem;
 }
