@@ -19,7 +19,7 @@ body {
 .container {
     position: relative;
     width: 80%;
-    height: 87%;
+    height: 90%;
     border-radius: 10px;
     display: flex;
     overflow: hidden;
@@ -66,7 +66,7 @@ body {
 }
 
 header {
-    margin-bottom: 1.675rem;
+    margin-bottom: 1.4rem;
 }
 
 h1 {
@@ -80,11 +80,11 @@ h1 {
 }
 
 .user-details, .clickables {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 label {
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin-bottom: 4px;
     display: inline-block;
     font-weight: 300;
@@ -106,7 +106,7 @@ input, #sign-up {
     outline: none;
     font-weight: 400;
     border: 1px solid;
-    font-size: 16px;
+    font-size: 0.6rem;
     letter-spacing: 1px;
     color: #607d8b;
     background: transparent;
@@ -135,9 +135,9 @@ input:focus {
 }
 
 .terms {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 0.2rem;
 }
 
 .terms input {
@@ -170,8 +170,8 @@ header h3 {
 
 .social li {
     list-style: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,8 +199,15 @@ header h3 {
 
     .content {
         width: 100%;
-        padding: 40px;
+        padding: 20px;
+        height: 100%;
         background:  rgba(255, 255, 255, 0.9);
-        margin: 50px;
+        margin: 30px;
+    }
+
+    header h3 {
+        text-align: center;
+        margin: 5px 0 5px;
+        font-weight: 300;
     }
 }
